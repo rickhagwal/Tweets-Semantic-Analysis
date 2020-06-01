@@ -1,7 +1,7 @@
 # Tweets-Semantic-Analysis
 Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Racist/ Non-sexist
 
-# Using Bagging and Boosting Techniques.
+## Using Bagging and Boosting Techniques.
 
 ### Steps:
 1. Read Train and Test datasets, which is already splitted into 2 seperate csv files.
@@ -21,9 +21,13 @@ Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Raci
    - Story Generation and Visualization from Tweets- 
     - Word Cloud:
     
-    i.
-    ii.
-    iii.
+    i. All Tweets-
+    ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/all_tweets.PNG)
+    ii. Non-racist/ Non-Sexist Tweets-
+    ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/non-racist-tweets.PNG)
+    iii. Racist/ Sexist Tweets-
+     ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/racist-tweets.PNG)
+     
    4. Understanding the impact of Hashtags on tweets sentiment
 
       - Hashtags in twitter are synonymous with the ongoing trends on twitter at any particular point in time. 
@@ -37,6 +41,11 @@ Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Raci
       - Plot of non-racist/non-sexist tweets.
       
       - Plot of racist/sexist tweets.
+      
+      i. Non-racist/ Non-Sexist Tweets-
+        ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/non-racist-hashtags.PNG)
+      ii. Racist/ Sexist Tweets-
+        ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/Racist-hashtags.PNG)
       
    5. Information Retrieval from Natural Language Processing models- 
        Bag of Words-
@@ -53,6 +62,8 @@ Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Raci
      iv. XGBoost
  
  F-1 scores of all models(without hyperparameter tuning)-
+ 
+ ![alt-text] (https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/F1-scores.PNG)
  
  7. As, it can be seen that, XGBoost model, with Word2Vec performs best. Performed hyperparameter tuning on XGBoost model-
  And got 70.3% accuracy as F-1 score.
