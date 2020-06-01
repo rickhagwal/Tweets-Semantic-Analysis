@@ -19,15 +19,15 @@ Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Raci
      - Then, Text Normalization. For example, reducing terms like loves, loving, and lovable to their base word, i.e., ‘love’.are often used in the same context. If we can reduce them to their root word, which is ‘love’. It will help in reducing the total number of unique words in our data without losing a significant amount of information.
     
    - Story Generation and Visualization from Tweets- 
-    - Word Cloud:
+    ### Word Cloud:
     
-   i. All Tweets-
+   #### i. All Tweets-
     ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/all_tweets.PNG)
     
-   ii. Non-racist/ Non-Sexist Tweets-
+   #### ii. Non-racist/ Non-Sexist Tweets-
     ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/non-racist-tweets.PNG)
     
-   iii. Racist/ Sexist Tweets-
+   #### iii. Racist/ Sexist Tweets-
      ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/racist-tweets.PNG)
      
      
@@ -43,11 +43,11 @@ Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Raci
       - Now that we have prepared our lists of hashtags for both the sentiments, we can plot the top ‘n’ hashtags.
       - Plot of non-racist/non-sexist tweets.
       
-      - Plot of racist/sexist tweets.
+      ### Plot of racist/sexist tweets.
       
-      i. Non-racist/ Non-Sexist Tweets-
+      #### i. Non-racist/ Non-Sexist Tweets-
         ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/non-racist-hashtags.PNG)
-      ii. Racist/ Sexist Tweets-
+      #### ii. Racist/ Sexist Tweets-
         ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/Racist-hashtags.PNG)
       
    5. Information Retrieval from Natural Language Processing models- 
@@ -64,9 +64,9 @@ Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Raci
      iii. Random Forest
      iv. XGBoost
  
- F-1 scores of all models(without hyperparameter tuning)-
+ #### F-1 scores of all models(without hyperparameter tuning)-
  
- ![alt-text] (https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/F1-scores.PNG)
+    ![alt-text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/F1-scores.PNG)
  
  7. As, it can be seen that, XGBoost model, with Word2Vec performs best. Performed hyperparameter tuning on XGBoost model-
  And got 70.3% accuracy as F-1 score.
