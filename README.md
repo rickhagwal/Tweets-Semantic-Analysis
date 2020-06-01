@@ -66,7 +66,7 @@ Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Raci
  
  #### F-1 scores of all models(without hyperparameter tuning)-
  
-    ![alt-text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/F1-scores.PNG)
+   ![alt-text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/F1-scores.PNG)
  
  7. As, it can be seen that, XGBoost model, with Word2Vec performs best. Performed hyperparameter tuning on XGBoost model-
  And got 70.3% accuracy as F-1 score.
