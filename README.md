@@ -22,13 +22,13 @@ Semantic Analysis of Twitter data - whether Tweets are Racist/Sexist or Non-Raci
     ### Word Cloud:
     
    #### i. All Tweets-
-    ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/all_tweets.PNG)
+   ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/all_tweets.PNG)
     
    #### ii. Non-racist/ Non-Sexist Tweets-
-    ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/non-racist-tweets.PNG)
+   ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/non-racist-tweets.PNG)
     
    #### iii. Racist/ Sexist Tweets-
-     ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/racist-tweets.PNG)
+   ![alt text](https://github.com/rickhagwal/Tweet-Semantic-Analysis/blob/master/images/racist-tweets.PNG)
      
      
    4. Understanding the impact of Hashtags on tweets sentiment
